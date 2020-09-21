@@ -15,8 +15,8 @@ namespace VerzioKezelesHF
         }
 
         public static void beker() {
-            Console.WriteLine("Kérem adjon meg 10 számot!");
-            int darabszam = 10;
+            Console.WriteLine("Kérem adja meg az elemszámot!");
+            int darabszam = int.Parse(Console.ReadLine());
             int[] bekert = new int[darabszam];
             for (int i = 0; i <  bekert.Length; i++)
             {
